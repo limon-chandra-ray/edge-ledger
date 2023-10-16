@@ -1,0 +1,50 @@
+.body-header{
+    background-image: url('../image/showcase.jpg');
+    height: 100vh;
+    color: white;
+}
+.navbar.change-header-bg-color{
+    background: #333333c2;
+}
+.nav_link{
+    margin-bottom: 3px;
+}
+.nav_link:hover{
+    border-bottom: 3px solid green;
+}
+.header-content{
+    color: white;
+    height: 100%;
+}
+.header-content h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.header-content  p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.header-content a{
+    background: green;
+    font-size: 1.3rem;
+}
+.header-content a:hover{
+    background-color: rgb(7, 93, 7);
+}
+.social-media{
+    display: flex;
+    column-gap: 1.75rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.bg-submit{
+    background: green;
+}
+.bg-submit:hover{
+    background: rgb(30, 154, 30);
+}
+.social-media a i:hover{
+    color: green;
+}
